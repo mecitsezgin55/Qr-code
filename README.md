@@ -1,7 +1,7 @@
 # Qr code
  React native ile qr code tarayıcı
 
-### Kütüphaneler
+## Kütüphaneler
 * npm install react-native-camera --save
   npx react-native link react-native-camera
   
@@ -15,17 +15,19 @@ Kütüphaneleri kurduktan sonra tekrar link ile bağlamak gerekebilir:
 * npx react-native link
 
 
-### İzinler
+## İzinler
 Kütüphanaler kurulduktan sonra kamerayı kullanmak için izinleri vermemiz gerekiyor
 
-Android için;
-android/app/src/main/AndroidManifest.xml
-<uses-permission android:name="android.permission.VIBRATE"/>
+### Android için
 
+android/app/src/main/AndroidManifest.xml
+```
+ <uses-permission android:name="android.permission.VIBRATE"/>
+```
 
 Ayrıca bu config ayarını da yapmamız gerekiyor;
 android/app/build.gradle
-
+```
 android {
   ...
   defaultConfig {
@@ -34,6 +36,6 @@ android {
   }
 }
 
-
+```
 ### Kaynak
 - https://github.com/moaazsidat/react-native-qrcode-scanner
