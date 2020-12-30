@@ -33,3 +33,7 @@ android {
     missingDimensionStrategy 'react-native-camera', 'general' <-- insert this line
   }
 }
+
+
+### Kaynak
+- https://github.com/moaazsidat/react-native-qrcode-scanner
